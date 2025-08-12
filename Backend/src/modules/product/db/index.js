@@ -2,7 +2,7 @@ import productModel from "../model/product.js"
 
 
 const AddData=((Body)=>{
-
+console.log("POST DB",Body)
  productModel(Body).save()
 })
 

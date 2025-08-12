@@ -1,7 +1,7 @@
 import { Router } from "express";
-import UserRoutes from '../models/user/routes.js'
-import productroutes from '../models/product/route.js'
-import uploadroute from'../models/upload/route.js'
+import UserRoutes from '../modules/user/routes.js'
+import productroutes from '../modules/product/route.js'
+import uploadroute from'../modules/upload/route.js'
 const router=Router()
 
 router.use('/user',UserRoutes)

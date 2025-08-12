@@ -7,7 +7,7 @@ const router=Router()
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     console.log("destination",file)
-    cb(null, 'src/models/upload/file')
+    cb(null, 'src/modules/upload/file')
   },
   filename: function (req, file, cb) {
        console.log("filename",file)
