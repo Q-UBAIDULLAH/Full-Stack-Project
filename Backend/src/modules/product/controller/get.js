@@ -2,7 +2,8 @@ import getData from "../services/get.js"
 
 const getController=async(req,res)=>{
 try {
-       const Data=await getData()
+console.log("Query",req.query)
+       const Data=await getData(req.query)
         res.status(200).send({status:200,data:Data})
 
 } catch (error) {

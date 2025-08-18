@@ -11,6 +11,10 @@ const getAll=(async()=>{
 
 })
 
+const getAggregate=(async(pipeline)=>{
+return await productModel.aggregate(pipeline)
+})
+
 const deleteById=(async(id)=>{
 await productModel.findByIdAndDelete(id)
 })
@@ -23,5 +27,6 @@ export{
     AddData,
     getAll,
     deleteById,
-    updateById
+    updateById,
+    getAggregate
 }
