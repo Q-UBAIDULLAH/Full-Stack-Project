@@ -1,8 +1,11 @@
 import productModel from "../../product/model/product.js"
+import { postCartdb } from "../db/index.js";
 import CartModel from "../model/cart.js"
 
 
 const addtocart=async(userId,productId,quantity)=>{
+
+
   let cart = await CartModel.findOne({ user: userId });
     const product = await productModel.findById(productId);
     console.log("product",product)
@@ -22,7 +25,8 @@ const addtocart=async(userId,productId,quantity)=>{
 
     if (idx > -1) {
       cart.items[idx].quantity += quantity;
-    } else {
+    } 
+    else {
       cart.items.push({ product: productId, quantity });
     }
 

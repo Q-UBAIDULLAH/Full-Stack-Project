@@ -5,8 +5,8 @@ try {
   const userId=req.user._id
   const{product,quantity}=req.body
     console.log("REQ.USER",req.user._id)
-    addtocart(userId,product,quantity)
-        res.status(200).send({message:"addtocart"})
+  let cartresult=addtocart(userId,product,quantity)
+        res.status(200).send({message:"addtocart",cartresult})
 } catch (error) {
     res.status(400).send({message:error.message})
 }
