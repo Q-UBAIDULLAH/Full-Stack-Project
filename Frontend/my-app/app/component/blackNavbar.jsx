@@ -19,7 +19,7 @@ const BlackNavbar=()=>{
 
     return(<>
 
-<nav className="bg-[#0c0220] p-4">
+<nav className="bg-[#252B42] p-4">
 <div className="flex justify-between">
 
 
@@ -42,7 +42,7 @@ const BlackNavbar=()=>{
 
   
 
- <div className="flex space-x-6 ">
+ <div className="flex space-x-6  ">
 
 
 

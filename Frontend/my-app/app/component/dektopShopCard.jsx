@@ -15,7 +15,7 @@ const DesktopShopCard=()=>{
 
     return(<>
 
-<div className='bg-[#FAFAFA] w-full h-[375px]  lg:bg-[#FAFAFA] lg:w-full lg:h-[375px] '>
+<div className='bg-[#FAFAFA] w-full h-full lg:bg-[#FAFAFA] lg:w-full lg:h-[375px] '>
 
  <div className='flex flex-col justify-center items-center pt-6  lg:flex lg:flex-col lg:justify-center lg:items-center lg:pt-6'>
 

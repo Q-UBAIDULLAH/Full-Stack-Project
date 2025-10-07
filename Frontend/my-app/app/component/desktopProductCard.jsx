@@ -21,9 +21,9 @@ const DesktopProductCard=()=>{
  <p className=' font-extrabold '>BESTSELLER PRODUCTS</p>
   <p className='text-[#737373] text-sm   '>Problems trying to resolve the conflict between </p>
    </div>
-  <div className="grid grid-cols-2 md:grid-cols-4 mx-auto justify-items-center   lg:w-7/12 bg-">
+  <div className="grid grid-cols-2  md:grid-cols-4 mx-auto justify-items-center   lg:w-7/12 bg-">
  
-       <Card className="m-  border-none  lg:w-40 bg-violet- lg:h-">
+       <Card className="m-  border-none  lg:w-40 bg-violet-  lg:h-">
   <div >
    <CardHeader  className="relative p-0">
   
